@@ -1,14 +1,112 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title>Página de Ejemplo</title>
-  </head>
-  <body>
-    <header></header>
-    <main>
-      <h1>Hola, mundo</h1>
-    </main>
-    <footer></footer>
-  </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web de Motos Deportivas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+    header {
+      background: linear-gradient(90deg, #00ff00, #009900);
+      padding: 20px;
+      text-align: center;
+      color: #000;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      padding: 10px;
+      gap: 20px;
+    }
+    nav a {
+      color: #00ff88;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      border-bottom: 1px solid #333;
+    }
+    h2 {
+      color: #00ff88;
+    }
+    .moto-card {
+      background-color: #1a1a1a;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-left: 5px solid #00ff00;
+    }
+  </style>
+</head>
+<body>
+  <header>⚡ Motos Deportivas</header>
+
+  <nav>
+    <a href="#motos">Motos</a>
+    <a href="#componentes">Componentes</a>
+    <a href="#equipacion">Equipación</a>
+  </nav>
+
+  <section id="motos">
+    <h2>Motos Destacadas</h2>
+
+    <div class="moto-card">
+      <h3>Kawasaki Ninja 400</h3>
+      <p>Una de las motos deportivas más populares para principiantes y usuarios avanzados. Motor de 399cc, excelente manejo y estética agresiva.</p>
+    </div>
+
+    <div class="moto-card">
+      <h3>Yamaha YZF-R3</h3>
+      <p>La R3 destaca por su suavidad, buena aceleración y fiabilidad. Motor de 321cc con estilo inspirado en la serie R.</p>
+    </div>
+
+    <div class="moto-card">
+      <h3>KTM Duke 390</h3>
+      <p>Una naked deportiva muy potente para su cilindrada. Motor de 373cc, ligera y con gran electrónica para su categoría.</p>
+    </div>
+
+    <div class="moto-card">
+      <h3>Honda CBR500R</h3>
+      <p>Equilibrio perfecto entre potencia, comodidad y consumo. Ideal para uso diario y conducción deportiva moderada.</p>
+    </div>
+
+    <div class="moto-card">
+      <h3>Suzuki GSX-250R</h3>
+      <p>Una moto ligera, económica y con estilo deportivo, ideal para quienes empiezan en el mundo de las motos.</p>
+    </div>
+  </section>
+
+  <section id="componentes">
+    <h2>Componentes de una Moto Deportiva</h2>
+    <ul>
+      <li>Motor (mono, bi o tetracilíndrico)</li>
+      <li>Chasis ligero y rígido</li>
+      <li>Suspensiones deportivas</li>
+      <li>Frenos de alto rendimiento con ABS</li>
+      <li>Escape deportivo</li>
+      <li>Neumáticos de agarre alto</li>
+    </ul>
+  </section>
+
+  <section id="equipacion">
+    <h2>Equipación Recomendada</h2>
+    <ul>
+      <li>Casco integral o racing</li>
+      <li>Chaqueta con protecciones</li>
+      <li>Guantes deportivos</li>
+      <li>Botas de moto</li>
+      <li>Pantalones con protecciones</li>
+      <li>Mono de cuero (para conducción deportiva)</li>
+    </ul>
+  </section>
+
+</body>
 </html>
